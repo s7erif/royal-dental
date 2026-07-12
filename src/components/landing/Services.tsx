@@ -179,6 +179,8 @@ export function Services() {
                       </div>
                     ) : (
                       <div className="relative mt-5 h-px w-10 bg-gradient-to-l from-[color:var(--color-gold)] to-transparent transition-all duration-500 group-hover:w-20" />
+                          {formatPrice(s).label}
+
                     )}
                   </div>
                 </Reveal>
