@@ -135,9 +135,11 @@ export function Testimonials() {
         <div className="mt-8 grid gap-8 sm:mt-12 sm:gap-6 lg:grid-cols-[280px_1fr] lg:items-center">
           <Reveal delay={0.05}>
             <div className="flex flex-col items-center gap-3 text-center">
-              <div className="grid h-20 w-20 place-items-center rounded-[22px] bg-gradient-to-br from-[color:var(--color-gold)] to-[color:var(--color-gold-dark)] text-white shadow-[0_20px_40px_-20px_rgba(201,168,76,0.6)] sm:h-24 sm:w-24">
-                <ToothIcon className="h-10 w-10 sm:h-12 sm:w-12" />
-              </div>
+<img
+  src="/logo.png"
+  alt="Royal Dental"
+  className="h-10 w-10 sm:h-20 sm:w-20 object-contain"
+/>
               <div className="mt-1 text-[17px] font-black text-[color:var(--color-charcoal)]">
                 Royal Dental Center
               </div>

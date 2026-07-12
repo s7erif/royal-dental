@@ -22,18 +22,23 @@ export function Navbar({ active }: { active: string }) {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
-        <a href="#home" className="flex items-center gap-2.5">
-          <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-[color:var(--color-gold-light)] to-[color:var(--color-gold-dark)] shadow-[0_6px_20px_-6px_rgba(200,162,75,0.6)]">
-            <Crown className="h-4 w-4 text-white" />
-          </div>
-          <div className="leading-tight">
-            <div className="text-[15px] font-bold text-[color:var(--color-charcoal)]">
-              رويال ديـنـتـال
-            </div>
-            <div className="text-[10px] tracking-[0.2em] text-[color:var(--color-gold-dark)]">
-              د. مصطفى بكر
-            </div>
-          </div>
+      <a href="#home" className="flex items-center gap-3">
+  <img
+    src="/logo.png"
+    alt="Royal Dental"
+    className="h-16 w-16 object-contain"
+  />
+
+  <div className="leading-tight">
+    <div className="text-[15px] font-bold text-[color:var(--color-charcoal)]">
+      رويال ديـنـتـال
+    </div>
+
+    <div className="text-sm text-[color:var(--color-gold-dark)]">
+      د. مصطفى بكر
+    </div>
+  </div>
+
         </a>
         <ul className="hidden items-center gap-8 md:flex">
           {nav.map((n) => (
@@ -85,7 +90,11 @@ export function Navbar({ active }: { active: string }) {
               <div className="flex items-center justify-between border-b border-black/5 px-5 py-4">
                 <div className="flex items-center gap-2.5">
                   <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-[color:var(--color-gold-light)] to-[color:var(--color-gold-dark)]">
-                    <Crown className="h-4 w-4 text-white" />
+<img
+  src="/logo.png"
+  alt="Royal Dental"
+  className="h-16 w-16 sm:h-16 sm:w-16 object-contain"
+/>
                   </div>
                   <div className="leading-tight">
                     <div className="text-sm font-bold text-[color:var(--color-charcoal)]">
