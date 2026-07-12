@@ -1,0 +1,1 @@
+ALTER TABLE public.before_after_cases ALTER COLUMN treatment_type DROP NOT NULL;

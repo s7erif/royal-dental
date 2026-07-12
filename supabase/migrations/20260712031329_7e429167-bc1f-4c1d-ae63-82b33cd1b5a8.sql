@@ -1,0 +1,1 @@
+ALTER TABLE public.contact_content ADD COLUMN IF NOT EXISTS offers_section_enabled boolean NOT NULL DEFAULT true;
